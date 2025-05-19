@@ -28,14 +28,14 @@ main {
 }
 
 button {
-
+    margin-top: -15px;
     margin-left: 6%;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
     color: white;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
     width: 327px;
     height: 48px;
     flex-shrink: 0;
@@ -45,16 +45,25 @@ button {
 
 input,
 select {
+    padding-left: 10px;
     margin-left: 5%;
-    margin-bottom: 48px;
+    margin-bottom: 30px;
     width: 327px;
     height: 48px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid #BBB;
     background: #FFF;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
+    color: #555;
+    font-family: Roboto;
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 112.5% */
+
 }
 
 img {
@@ -87,14 +96,17 @@ section {
     border-radius: 20px;
     border: 1px solid #772FD3;
 }
-.arrow{
+
+.arrow {
     margin-left: 47%;
-   
+
     display: block;
 }
-button:active{
+
+button:active {
     background-color: rgb(58, 2, 63);
-    }
-    button:hover{
-        opacity: 0.8;
-    }
+}
+
+button:hover {
+    opacity: 0.8;
+}
