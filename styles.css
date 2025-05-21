@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #8A51FC;
+    background-color: green;
 }
 
 main {
@@ -21,7 +21,7 @@ main {
 
 .logo {
     display: block;
-    width: 300px;
+    width: 410px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -40,11 +40,12 @@ button {
     height: 48px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: #772FD3;
+    background: green;
 }
 
 input,
 select {
+   
     padding-left: 10px;
     margin-left: 5%;
     margin-bottom: 30px;
@@ -94,7 +95,7 @@ p {
 
 section {
     border-radius: 20px;
-    border: 1px solid #772FD3;
+    border: 1px solid green;
 }
 
 .arrow {
