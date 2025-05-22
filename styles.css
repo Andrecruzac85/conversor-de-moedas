@@ -88,7 +88,8 @@ label {
 
 p {
     margin: 5px 150px 5px 165px;
-    text-align: center;
+    font-size: 18px;
+    font: bold;
 
 }
 
