@@ -39,17 +39,11 @@ Veja o resultado formatado e a imagem da moeda atualizada automaticamente!
 
 ✅ Responsividade para dispositivos móveis.
 
-✅ Tema escuro/claro.
-
 ✅ Suporte a mais moedas.
 
 🤝 Contribuições
 Contribuições são bem-vindas!
 Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-📄 Licença
-Este projeto está sob a licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
 
 👨‍💻 Autor
 André Cruz
