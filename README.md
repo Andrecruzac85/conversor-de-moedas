@@ -13,7 +13,7 @@ Euro (EUR)
 ✅ Interface simples e intuitiva.
 
 🖼️ Demonstração
-(Você pode adicionar um GIF ou print da aplicação aqui)
+<img src="https://github.com/Andrecruzac85/conversor-de-moedas/blob/main/assets/conversor.png?raw=true">
 
 🛠️ Tecnologias utilizadas
 HTML5
