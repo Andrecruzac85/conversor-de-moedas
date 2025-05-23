@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeCurrency() {
+        
         const currencyImg = document.querySelector(".currency-img");
         const currencyName = document.querySelector(".currency-name");
 
@@ -44,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         convertValues()
     }
+
 
     selectCurrency.addEventListener("change", changeCurrency);
     convertButton.addEventListener("click", convertValues);
