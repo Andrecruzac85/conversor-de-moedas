@@ -12,7 +12,7 @@ Euro (EUR)
 ✅ Troca automática da imagem e nome da moeda ao selecionar uma nova opção.
 ✅ Interface simples e intuitiva.
 
-🖼️ Demonstração
+🖼️ Demonstração <br>
 <img src="https://github.com/Andrecruzac85/conversor-de-moedas/blob/main/assets/conversor.png?raw=true">
 
 🛠️ Tecnologias utilizadas
