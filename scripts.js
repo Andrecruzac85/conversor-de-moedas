@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function convertValues() {
         const inputValue = document.querySelector(".value-to-convert").value;
-
+        const libraToday = 7.65;
         const dolarToday = 5.65;
         const euroToday = 6.44;
-
+        const bitcoinToday = 605495.25 ;
         const valoraserconvertido = document.querySelector(".real-value");
         const valorconvertido = document.querySelector(".dolar-value");
 
@@ -23,7 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 currency: "EUR"
             }).format(inputValue / euroToday);
         }
-
+        if (selectCurrency.value == "libra") {
+            valorconvertido.innerHTML = new Intl.NumberFormat("en-GB", {
+                style: "currency",
+                currency: "GBP"
+            }).format(inputValue / libraToday);
+        }
+        if (selectCurrency.value == "bitcoin") {
+            valorconvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
+                style: "currency",
+                currency: "BRL"
+            }).format(inputValue / bitcoinToday);
+        }
         valoraserconvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
@@ -31,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeCurrency() {
-        
+
         const currencyImg = document.querySelector(".currency-img");
         const currencyName = document.querySelector(".currency-name");
 
@@ -43,6 +54,15 @@ document.addEventListener("DOMContentLoaded", () => {
             currencyName.innerHTML = "Euro";
             currencyImg.src = "./assets/euro.png";
         }
+        if (selectCurrency.value == "libra") {
+            currencyName.innerHTML = "Libra";
+            currencyImg.src = "./assets/libra.png";
+        }
+        if (selectCurrency.value == "bitcoin") {
+            currencyName.innerHTML = "Bitcoin";
+            currencyImg.src = "./assets/bitcoin.png";
+        }
+
         convertValues()
     }
 
