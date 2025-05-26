@@ -12,8 +12,8 @@ Euro (EUR)
 ✅ Troca automática da imagem e nome da moeda ao selecionar uma nova opção.
 ✅ Interface simples e intuitiva.
 
-🖼️ Demonstração
-(Você pode adicionar um GIF ou print da aplicação aqui)
+🖼️ Demonstração <br>
+<img src="https://github.com/Andrecruzac85/conversor-de-moedas/blob/main/assets/conversor.png?raw=true">
 
 🛠️ Tecnologias utilizadas
 HTML5
@@ -39,17 +39,11 @@ Veja o resultado formatado e a imagem da moeda atualizada automaticamente!
 
 ✅ Responsividade para dispositivos móveis.
 
-✅ Tema escuro/claro.
-
 ✅ Suporte a mais moedas.
 
 🤝 Contribuições
 Contribuições são bem-vindas!
 Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-📄 Licença
-Este projeto está sob a licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
 
 👨‍💻 Autor
 André Cruz
